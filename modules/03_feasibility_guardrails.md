@@ -1,3 +1,6 @@
+Change Log (2025-11-17):
+- Added short-walk rule: if user prefers “short walks only,” limit activities to <15 minutes walking distance.
+
 # Module 3 — Feasibility & Guardrails
 
 ## Purpose
@@ -13,6 +16,9 @@ If restaurant too expensive → replace with cheaper similar cuisine.
 
 ### Too Far or Long Travel
 If distance >25 min or >5 km → choose nearer option or add transit.
+
+### Short Walks Preference
+If user indicates “short walks only” → choose activities within 15-minute walking distance and prioritize clustered locations.
 
 ### Weather Swap
 If rainy or cold season likely → include at least one indoor alternative.
